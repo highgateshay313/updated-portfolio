@@ -1,0 +1,11 @@
+:root {
+    --color-primary: rgb(36, 36, 36);
+    --color-secondary: gray;
+    --color-accent: rgb(159, 159, 236);
+    --color-text: whitesmoke;
+    --color-body: black;
+}
+
+body {
+  background-color: var(--color-body);
+}

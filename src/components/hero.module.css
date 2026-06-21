@@ -1,0 +1,64 @@
+
+:root {
+    --color-primary: rgb(26, 26, 26);
+    --color-secondary: gray;
+    --color-accent: rgb(57, 39, 255);
+    --color-text: whitesmoke;
+}
+
+
+.hero_container {
+    width: 100%;
+    height: 100%;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+    margin: 0;
+    padding: 50px 0;
+}
+
+.hero_div {
+    margin-left: 30px;
+}
+
+.hero_span {
+    color: var(--color-accent);
+    font-size: 2rem;
+}
+
+.hero_para1, .hero_para2 {
+    font-size: 0.8rem;
+    color: var(--color-secondary);
+}
+
+.hero_para1 {
+    padding-top: 30px;
+}
+
+.hero_btn_div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.hero_btn {
+    margin-top: 35px;
+    padding: 10px;
+    border: 1px solid var(--color-secondary);
+    border-radius: 5px;
+    color: var(--color-text);
+    background-color: var(--color-primary);
+}
+
+.hero_icon_div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(200deg, var(--color-secondary), var(--color-accent));
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero_icon {
+    font-size: 1.5rem;
+    color: var(--color-text);
+}

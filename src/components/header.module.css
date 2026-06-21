@@ -1,0 +1,46 @@
+:root {
+    --color-primary: rgb(0, 0, 0);
+    --color-secondary: gray;
+    --color-accent: rgb(159, 159, 236);
+    --color-text: whitesmoke;
+}
+
+
+
+.header_container {
+    display: flex;
+    background-color: var(--color-text);
+    color: var(--color-text);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header_name {
+    margin-left: 30px;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+}
+
+.nav_list {
+    width: 50%;
+}
+
+.nav_items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_item {
+    list-style: none;
+    color: var(--color-accent);
+}
+
+.header_btn {
+    margin-right: 30px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 10px;
+}
+
+

@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(7, auto);
-    max-width: 1200px;
+    max-width: 1700px;
     height: 100%;
     margin: 0 auto;
     font-family: "Cinzel", serif;

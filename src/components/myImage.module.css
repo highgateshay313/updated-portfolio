@@ -17,3 +17,15 @@
     border-radius: 10px;
     background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+    .myImage_container {
+        padding: 40px 0;
+    }
+
+    .myImage_div {
+        width: 90%;
+        height: 250px;
+    }
+}
+

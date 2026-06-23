@@ -24,6 +24,8 @@
         "header_container header_container"
         "hero_container myImage_container"
         "projects_container projects_container"
+        "experties_container experties_container"
+        "footer_container footer_container"
     ;
 }
 
@@ -41,4 +43,12 @@
 
 .projects_container {
     grid-area: projects_container;
+}
+
+.experties_container {
+    grid-area: experties_container;
+}
+
+.footer_container {
+    grid-area: footer_container;
 }

@@ -3,6 +3,8 @@ import Header from "./Header";
 import Hero from "./Hero";
 import MyImage from "./MyImage";
 import Projects from "./Projects";
+import Experties from "./Experties";
+import Footer from "./Footer";
 
 export default function Dashboard({ className }) {
   return (
@@ -18,6 +20,12 @@ export default function Dashboard({ className }) {
       </div>
       <div className={styles.projects_container}>
         <Projects />
+      </div>
+      <div className={styles.experties_container}>
+        <Experties />
+      </div>
+      <div className={styles.footer_container}>
+        <Footer />
       </div>
     </div>
   );

@@ -1,7 +1,24 @@
+:root {
+    --color-primary: rgb(20, 20, 20);
+    --color-secondary: gray;
+    --color-accent: rgb(55, 85, 136);
+    --color-text: whitesmoke;
+}
+
+
 .projects_container {
     width: 100%;
     color: var(--color-text);
     background-color: var(--color-primary);
+}
+
+.project_card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0;
 }
 
 .project_title {
@@ -25,37 +42,34 @@
     display: grid;
     padding: 30px 0;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-        "popcorn_butter dev_pulse whitewalls"
-    ;
     width: 95%;
     margin: 0 auto;
-    gap: 2rem;
+    gap: 10px;
     background-color: var(--color-primary);
 }
 
 .projects_item {
     width: 100%;
-    height: 250px;
+    height: 150px;
     border-radius: 10px;
 }
 
 .popcorn_butter {
-    background-image: url("../assets/devPulse.jpg");
+    /* background-image: url("../assets/devPulse.jpg"); */
     background-position: center;
     background-size: cover;
     grid-area: popcorn_butter;
 }
 
 .dev_pulse {
-    background-image: url("../assets/figma_img.jpg");
+    /* background-image: url("../assets/figma_img.jpg"); */
     background-position: center;
     background-size: cover;
     grid-area: dev_pulse;
 }
 
 .whitewalls {
-    background-image: url("../assets/react-image.jpg");
+    /* background-image: url("../assets/react-image.jpg"); */
     background-position: center;
     background-size: cover;
     grid-area: whitewalls;
@@ -67,4 +81,56 @@
 
 .para1 {
     margin-left: 10px;
+}
+
+.project_img {
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.project_des {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 8px;
+    background-color: var(--color-accent);
+}
+
+.project_div {
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.des_title, 
+.des_para,
+.project_btn {
+    font-size: 0.7rem;
+    padding-left: 20px;
+    color: rgb(168, 168, 168);
+} 
+
+
+
+.project_name {
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.project_btn {
+    width: 100px;
+    margin: 30px auto;
+    padding: 8px 10px;
+    background-color: var(--color-accent);
+    color: var(--color-text);
+    border: none;
+    cursor: pointer;
 }

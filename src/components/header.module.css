@@ -81,9 +81,7 @@
         border-bottom: 2px solid var(--color-secondary);
     }
 
-    .mobile_menu {
-        margin-right: 20px;
-    }
+   
 
     .hamburger {
         display: flex;

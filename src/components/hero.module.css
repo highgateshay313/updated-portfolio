@@ -61,3 +61,29 @@
     font-size: 1.5rem;
     color: var(--color-text);
 }
+
+@media (max-width: 768px) {
+    .hero_title {
+        font-size: 1.3rem;
+    }
+
+    .hero_span {
+        font-size: 1.2rem;
+    }
+
+    .hero_container {
+        padding: 40px 0;
+    }
+
+    .hero_btn_div {
+        width: 300px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .hero_icon_div {
+        width: 300px;
+        max-width: 400px;
+        box-sizing: border-box;
+    }
+}

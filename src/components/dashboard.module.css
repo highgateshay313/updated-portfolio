@@ -57,6 +57,7 @@
 @media (max-width: 768px) {
     .dashboard_container {
         grid-template-columns: 1fr;
+        overflow: hidden;
         grid-template-areas: 
             "header_container"
             "hero_container"

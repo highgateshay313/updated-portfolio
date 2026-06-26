@@ -99,18 +99,20 @@
 }
 
 .hero_title {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 }
 
 .hero_div {
    display: block;
+   margin-left: 20px;
+   margin-right: 20px;
     /* grid-column: auto;
     grid-row: auto; */
 }
 
 .hero_span {
     color: var(--color-accent);
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 }
 
 .hero_para1, .hero_para2 {
@@ -138,8 +140,8 @@
 }
 
 .hero_icon_div {
-   grid-column: auto;
-   grid-row: auto;
+  max-width: 400px;
+  margin: 40px auto 0 auto;
 }
 
 .hero_icon {

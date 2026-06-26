@@ -79,7 +79,8 @@ hr {
 
 @media (max-width: 600px) {
     .projects_experties {
-        grid-template-columns: 1fr;
+        display: block;
+        margin: 0 auto;
     }
     hr {
     border: none;
@@ -87,18 +88,23 @@ hr {
 }
 
 .experties_title {
-   grid-column: auto;
-   grid-row: auto;
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+
+.experties_div {
+    width: 80%;
 }
 
 .projects_experties {
-    grid-column: auto;
-   grid-row: auto;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .project_experties_item {
-   grid-column: auto;
-   grid-row: auto;
+  margin: 20px auto;
 }
 
 .item_1,

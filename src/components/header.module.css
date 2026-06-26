@@ -86,18 +86,16 @@
     }
 
    .header_name {
-    margin-left: 30px;
+    margin-left: 10px;
     font-size: 1rem;
     color: var(--color-accent);
     font-weight: bold;
 }
 
     .hamburger {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
         background-color: var(--color-accent);
-        padding: 8px;
+        padding: 5px;
         background: none;
         border: none;
     }

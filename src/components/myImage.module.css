@@ -21,19 +21,26 @@
 @media (max-width: 768px) {
 .myImage_container {
     display: block;
-    /* grid-template-columns: 1fr;
-    justify-self: center;
-    grid-column: auto;
-    grid-row: auto; */
+    margin-top: 0;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     background-color: var(--color-primary);
+}
+
+.myImage_section {
+    display: block;
+    /* margin-left: 20px;
+    margin-right: 20px; */
 }
 
 .myImage_div {
     background-image: url("../assets/portfolio-cleanup-2.png");
     background-size: cover;
     background-position:top center;
-    width: 70%;
-    height: 350px;
+    /* max-width: 100%; */
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
     border-radius: 10px;
     background-repeat: no-repeat;
 }

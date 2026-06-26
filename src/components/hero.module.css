@@ -94,8 +94,8 @@
 
 @media (max-width: 600px) {
     .hero_container {
-        display: grid;
-  grid-template-columns: 1fr;
+        display: block;
+  /* grid-template-columns: 1fr; */
 }
 
 .hero_title {
@@ -103,9 +103,9 @@
 }
 
 .hero_div {
-   
-    grid-column: auto;
-    grid-row: auto;
+   display: block;
+    /* grid-column: auto;
+    grid-row: auto; */
 }
 
 .hero_span {

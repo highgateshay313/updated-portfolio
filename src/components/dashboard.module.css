@@ -22,9 +22,9 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(7, auto);
-    max-width: 1200px;
+    max-width: 980px;
     width: 100%;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
     font-family: "Cinzel", serif;
     grid-template-areas: 
@@ -61,21 +61,48 @@ html, body {
 }
 
 @media (max-width: 768px) {
-    .dashboard_container {
-        grid-template-columns: 1fr;
-        /* overflow: hidden; */
-        width: 400px;
-        grid-template-areas: 
-            "header_container"
-            "hero_container"
-            "myImage_container"
-            "projects_container"
-            "experties_container"
-            "footer_container"
-        ;
-    }
+   .dashboard_container {
+    display: block;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: repeat(7, auto); */
+   
+}
 
-    * {
-        max-width: 100%;
-    }
+.header_container {
+    /* grid-column: auto;
+    grid-row: auto; */
+    display: block;
+}
+
+.hero_container {
+     /* grid-column: auto;
+    grid-row: auto; */
+    display: block;
+}
+
+.myIamge_container {
+     grid-column: auto;
+    grid-row: auto;
+}
+
+.projects_container {
+    /* grid-column: auto;
+    grid-row: auto; */
+    display: block;
+}
+
+.experties_container {
+     /* grid-column: auto;
+    grid-row: auto; */
+    display: block;
+}
+
+.footer_container {
+     /* grid-column: auto;
+    grid-row: auto; */
+    display: block;
+}
+
+
+   
 }

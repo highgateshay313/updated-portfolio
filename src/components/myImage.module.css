@@ -8,8 +8,13 @@
     background-color: var(--color-primary);
 }
 
+.myImage_section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .myImage_div {
-    background-image: url("../assets/portfolio-cleanup-2.png");
     background-size: cover;
     background-position:top center;
     width: 70%;

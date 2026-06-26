@@ -12,16 +12,13 @@
     --color-text: whitesmoke;
 }
 
-html, body {
-    /* overflow: hidden; */
-    width: 100%;
-}
+
 
 .dashboard_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(7, auto);
-    max-width: 980px;
+    max-width: 1200px;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -59,29 +56,21 @@ html, body {
     grid-area: footer_container;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
    .dashboard_container {
     display: block;
-    /* grid-template-columns: 1fr; */
-    /* grid-template-rows: repeat(7, auto); */
-   
 }
 
 .header_container {
-    /* grid-column: auto;
-    grid-row: auto; */
     display: block;
 }
 
 .hero_container {
-     /* grid-column: auto;
-    grid-row: auto; */
     display: block;
 }
 
 .myIamge_container {
-     grid-column: auto;
-    grid-row: auto;
+     display: block;
 }
 
 .projects_container {

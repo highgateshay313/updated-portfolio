@@ -10,7 +10,7 @@ export default function Projects({ className }) {
         <hr className={styles.projects_divider} />
         <h2 className={styles.project_title}>My Projects</h2>
       </div>
-      <div className={styles.projects_items}>
+      <div className={styles.project_items}>
         <figure className={styles.project_card}>
           <img
             className={styles.project_img}

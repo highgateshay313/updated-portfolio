@@ -2,7 +2,7 @@
     width: 100%;
     background-color: var(--color-primary);
     color: var(--color-text);
-    padding: 35px;
+    padding: 35px 0;
 }
 
 hr {
@@ -81,5 +81,60 @@ hr {
     .projects_experties {
         grid-template-columns: 1fr;
     }
+    hr {
+    border: none;
+    border-top: 2px solid rgb(40, 40, 40);
+}
+
+.experties_title {
+   grid-column: auto;
+   grid-row: auto;
+}
+
+.projects_experties {
+    grid-column: auto;
+   grid-row: auto;
+}
+
+.project_experties_item {
+   grid-column: auto;
+   grid-row: auto;
+}
+
+.item_1,
+.item_2,
+.item_3 {
+    background-color: var(--color-accent);
+}
+
+.item_1 {
+    grid-column: auto;
+   grid-row: auto;
+}
+
+.item_2 {
+    grid-column: auto;
+   grid-row: auto;
+}
+
+.item_3 {
+   grid-column: auto;
+   grid-row: auto;
+}
+
+.experties_icon {
+   grid-column: auto;
+   grid-row: auto;
+}
+
+.item_title {
+   grid-column: auto;
+   grid-row: auto;
+}
+
+.item_des {
+   grid-column: auto;
+   grid-row: auto;
+}
 }
 

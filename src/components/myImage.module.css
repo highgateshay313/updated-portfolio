@@ -19,18 +19,23 @@
 }
 
 @media (max-width: 768px) {
-   .myImage_container {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        padding: 40px 0;
-    }
+.myImage_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    grid-column: auto;
+    grid-row: auto;
+    background-color: var(--color-primary);
+}
 
-    .myImage_div {
-        width: 280px;
-        height: 280px;
-        margin: 0 auto;
-    }
+.myImage_div {
+    background-image: url("../assets/portfolio-cleanup-2.png");
+    background-size: cover;
+    background-position:top center;
+    width: 70%;
+    height: 350px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
 }
 

@@ -3,17 +3,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 
 :root {
     --color-primary: rgb(14, 14, 14);
     --color-secondary: gray;
-    --color-accent: rgb(159, 159, 236);
+    --color-accent: rgb(59, 82, 232);
     --color-text: whitesmoke;
 }
 
 html, body {
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
 }
 
@@ -62,8 +63,8 @@ html, body {
 @media (max-width: 768px) {
     .dashboard_container {
         grid-template-columns: 1fr;
-        overflow: hidden;
-        width: 100%;
+        /* overflow: hidden; */
+        width: 400px;
         grid-template-areas: 
             "header_container"
             "hero_container"

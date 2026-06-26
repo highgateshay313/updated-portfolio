@@ -136,6 +136,7 @@
    .projects_container {
     display: block;
     margin: 0 auto;
+    padding: 10px 0;
     color: var(--color-text);
     background-color: var(--color-primary);
 }
